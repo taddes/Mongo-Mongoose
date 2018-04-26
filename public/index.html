@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TrekMovie Mongo Scraper</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <style>
+    .main-container {
+    font-family: 'Slabo 27px', serif;
+    }
+    .img-responsive {
+      max-width: 100%; 
+      height: auto; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="jumbotron">
+      <div id="wrapper">
+        <div class="jumbotron text-center">
+        <h1>TrekMovie.com Mongo Scraper App</h1>
+        <p>Click on a given article to open the note function</p>
+        <a href="https://trekmovie.com" target="_blank">Visit TrekMovie.com</a>
+        <div class="img-holder">
+        <img class="img-responsive" src="https://scifanatic-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/TrekMovie_header_July_2017.jpg"  alt="Trek Movie">
+          <br>
+      </div>
+      </div>
+        <div class="container">
+          <div class="row">
+          <div class="col-md-9">
+            <div id="articles"></div>
+          </div>
+          <div class="col-md-3">
+            <div id="notes"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

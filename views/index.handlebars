@@ -1,16 +1,15 @@
 <script src="app.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css"/>
 
-<h1>Welcome to Your News Scraper!</h1>
+<h1>TrekMovie.com Mongo Scraper App</h1>
+<p>Click on a given article to open the note function</p>
+<a href="https://trekmovie.com">Visit TrekMovie.com</a>
 
 {{#each data}}
 
     <div id="wrapper">
     <p data-id={{this.id}} title={{this.title}} class="title">Article: {{this.title}}</p>
-    <p data-id={{this.id}} title={{this.title}}>Summary: {{this.summary}}</p>
     <p data-id={{this.id}} title={{this.title}}>Link: {{this.link}}</p>
     <div id="titles"></div>
-    <div id="summaries"></div>
     <div id="links"></div>
 </div>
 
