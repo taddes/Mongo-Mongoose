@@ -1,5 +1,7 @@
 # Mongo-Mongoose Scraper
 A web app that lets users view and leave comments on the latest news from TrekMovie.com. All articles are scraped from other sites.
+<hr>
+Link to the deployed app: https://immense-escarpment-69009.herokuapp.com/
 
 This Node.js application makes use of the following npm packages: `express`, `express-handlebars`, `mongoose`, `body-parser`, `cheerio`, and `request`
 
